@@ -12,7 +12,7 @@ _____Purpose____________
 The following code is an implementation of a simple REST API with one endpoint: Mood.
 The code has been developed upon the request of NEUROFLOW for a potential internship opportunity.
 For more information about assignment, check "Backend_Coding_Assessmest.pdf" at the following 
-public git repository: 
+public git repository: https://github.com/NaderAlmadbooh/REST-API-Mood-endpoint.git
 
 _____Notes______________
 
