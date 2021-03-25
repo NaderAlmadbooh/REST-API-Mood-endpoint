@@ -21,3 +21,24 @@ print(response.json())
 # get method error handling
 response = requests.get(linkAddress + "/Mood/20")
 print(response.json())
+
+############################
+# Testing delete() method
+############################
+
+# first lets get an item
+print("*"*50 + "\n testing delete\n"+"*"*50)
+item = requests.get(linkAddress + "/Mood/2")
+print(item.json())
+requests.delete(linkAddress + "/Mood/2")
+input("\n break1 \n")
+item = requests.get(linkAddress + "/Mood/2")
+print(item.json())
+#deleting item that does not exist
+#requests.delete(linkAddress + "Mood/1000")
+
+
+
+
+
+
